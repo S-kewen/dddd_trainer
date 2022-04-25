@@ -25,8 +25,8 @@ class Config(object):
                 "Word": False
             },
             "Train": {
-                "BATCH_SIZE": 32,
-                "TEST_BATCH_SIZE": 32,
+                "BATCH_SIZE": 320,
+                "TEST_BATCH_SIZE": 128,
                 'CNN': {
                     "NAME": "ddddocr",
                 },
